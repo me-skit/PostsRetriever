@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Post Retriever</string>
+    <string name="default_user_id">01</string>
+    <string name="default_post_title">Post 01 - Title</string>
+    <string name="default_post_body">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</string>
+    <string name="default_mail">jhondoe@mail.com</string>
+    <string name="default_name">Qui rerum deleniti ut</string>
+</resources>
