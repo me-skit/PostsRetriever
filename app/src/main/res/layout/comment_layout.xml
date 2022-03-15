@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="89dp">
+
+    <TextView
+        android:id="@+id/tvCommentId"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/default_user_id"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:text="@string/default_user_id" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:paddingStart="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_name"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            tools:text="@string/default_name" />
+
+        <TextView
+            android:id="@+id/tvMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_mail"
+            android:textColor="@color/teal_700"
+            android:textSize="10sp"
+            tools:text="@string/default_mail" />
+
+        <TextView
+            android:id="@+id/tvBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:text="@string/default_post_body"
+            tools:text="@string/default_post_body"/>
+
+    </LinearLayout>
+</LinearLayout>
